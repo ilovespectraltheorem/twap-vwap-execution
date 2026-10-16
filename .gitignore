@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Tests are kept locally, not published
+tests/
+.pytest_cache/
+pytest.ini
+
+# macOS
+.DS_Store
+
+# results/ is committed so the README figures show on GitHub.
+# data/ is committed on purpose: Yahoo deletes intraday history after ~60 days,
+# so the cached CSVs are the only way to reproduce the results.
